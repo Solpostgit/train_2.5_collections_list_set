@@ -39,6 +39,19 @@ public static void main(String[] args) {
         System.out.println(deliveryCities.get(3));
         System.out.println(deliveryCities.indexOf("Chicago"));
         System.out.println(deliveryCities.indexOf("Dallas")); //отсутствует -1
+        System.out.println(deliveryCities.contains("Toronto"));
+        deliveryCities.add("Vienna");
+        deliveryCities.add("Vienna2");
+
+        deliveryCities.set(2, "Los Angeles");
+
+        System.out.println(deliveryCities.size());
+        deliveryCities.remove("Vienna");
+        deliveryCities.remove(4);
+
+        System.out.println(deliveryCities);
+
+
 
         //   numbersList.toString();
 
